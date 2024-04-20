@@ -1,5 +1,13 @@
+
+import App from "./App";
+import Ayurvedic from "./Ayurvedic";
 import Banner from "./Banner";
+import Book from './Book'
+import Consultations from "./Consultations";
+import Footer from "./Footer";
 import Magic from "./Magic";
+import Meet from "./Meet";
+import Review from "./Review";
 
 const Home = () => {
     return (
@@ -9,6 +17,13 @@ const Home = () => {
          <div>
             <Banner/>
             <Magic/>
+            <Consultations/>
+            <Book/>
+            <Ayurvedic/>
+            <Review/>
+            <Meet/>
+            <App/>
+            <Footer/>
          </div>
         </div>
     );

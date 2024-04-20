@@ -7,7 +7,6 @@ const Banner = () => {
 
             <div className="w-full h-60 sm:h-[600px] md:h-[890px]  bg-cover bg-center before:absolute  before:inset-0 transform duration-1000 ease-linear"
                 style={{ backgroundImage: `url(${'https://s3-alpha-sig.figma.com/img/c1af/953f/807faed30071845860b212ed47717559?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IHZz7ngJyjHmSF3Xm~Mbmvsh6XIGK9xbBYq-L7n5ZTjCHFEQbQr1XyMV0WG-YCDnhsIkxbvKacEjSMcM7IEPcK3Q4Jd4BbMPu19w7-T5~mzrToEY558ThHLz3JHbOgpzwhLkbcD37ZT9hFAnO3yx98Fm4By3YMFtyS-53wCc7Ew8wt4EBlyLzKbMuXck9MiKZLQuUo9Ix-dAeooFTnes0gZmB6JwfOhpz8JPT1jASjmtgXJ1UKtMpOGHh-jGZtoSSRJYYD8cGJDRcnOYTjke7b~xJ4DhrZaWzU-tX~Z35mdUZSoItA9bH8nbD0rWXmKnMiL84ppuGNQxQYEo9uhJjA__'})` }}>
-                {/* text container here */}
                 <div className=" text-white lg:pt-80 space-y-8 px-12">
                     <h1 className="text-white  text-lg">Namaste, Welcome to Amrutam </h1>
                     <p className="text-sm md:text-base lg:text-5xl">Step into Holistic Healing with Ayurveda <br/>Book Consultation with certified Experts. </p>
