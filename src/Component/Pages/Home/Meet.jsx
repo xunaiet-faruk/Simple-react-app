@@ -9,7 +9,7 @@ const Meet = () => {
 
             <div>
                 <h1 className="text-[40px] text-center font-semibold text-[#3A643B]">Meet our Ayurveda experts </h1>
-                <hr className="border-4 border-gray-300 w-[600px] mx-auto" />
+                <hr className="lg:border-4 w-1 border-1 border-gray-300  md:w-4 lg:w-[600px] mx-auto" />
             </div>
             <div className="grid mt-12 lg:grid-cols-5 md:grid-cols-2 gap-[350px] grid-cols-1 justify-center items-center max-w-screen-xl mx-auto">
                 {/* card 1 icon here left   */}
