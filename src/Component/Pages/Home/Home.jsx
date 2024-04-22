@@ -22,8 +22,8 @@ const Home = () => {
             <Ayurvedic/>
             <Review/>
             <Meet/>
-            {/* <App/>
-            <Footer/> */}
+            <App/>
+            <Footer/>
          </div>
         </div>
     );
