@@ -11,14 +11,14 @@ const Meet = () => {
                 <h1 className="text-[40px] text-center font-semibold text-[#3A643B]">Meet our Ayurveda experts </h1>
                 <hr className="border-4 border-gray-300 w-[600px] mx-auto" />
             </div>
-            <div className="grid mt-12 lg:grid-cols-5 md:grid-cols-2  grid-cols-1 justify-center items-center ">
+            <div className="grid mt-12 lg:grid-cols-5 md:grid-cols-2 gap-[350px] grid-cols-1 justify-center items-center max-w-screen-xl mx-auto">
                 {/* card 1 icon here left   */}
-                <div className="border-2 ml-[300px] border-[#A5A5A5] rounded-full w-12 flex justify-center items-center h-12">
+                <div className="border-2  border-[#A5A5A5]  rounded-full w-12 flex justify-center items-center h-12">
                     <LuMoveLeft className="text-[#A5A5A5] text-2xl"/>
                </div>
           {/* card 2 data heree       */}
-               <div>
-                    <div className="my-10 flex max-w-[350px] flex-col items-center justify-center space-y-5 rounded-t-[40px] rounded-b-[40px] bg-[#FFF7E2]  font-sans shadow-lg dark:bg-[#18181B]">
+               <div >
+                    <div className="my-10 -ml-48 flex w-[320px] flex-col items-center justify-center space-y-5 rounded-t-[40px] rounded-b-[40px] bg-[#FFF7E2]  font-sans shadow-lg dark:bg-[#18181B]">
                         <div className="group relative pt-10">
                             <img  className="h-[180px] w-[180px] rounded-full bg-slate-500 object-cover" src="https://i.ibb.co/qY57C2X/Ellipse-725.png" />
                        <div className="absolute -bottom-2 left-14 py-1 flex gap-1  justify-center items-center bg-black text-white rounded-full px-3 ">
@@ -54,7 +54,7 @@ const Meet = () => {
                 {/* card 3 data heree       */}
 
                 <div>
-                    <div className="my-10 flex max-w-[350px] flex-col items-center justify-center space-y-5 rounded-t-[40px] rounded-b-[40px] bg-[#FFF7E2]  font-sans shadow-lg dark:bg-[#18181B]">
+                    <div className="my-10  -ml-48  flex w-[320px] flex-col items-center justify-center space-y-5 rounded-t-[40px] rounded-b-[40px] bg-[#FFF7E2]  font-sans shadow-lg dark:bg-[#18181B]">
                         <div className="group relative pt-10">
                             <img className="h-[180px] w-[180px] rounded-full bg-slate-500 object-cover" src="https://i.ibb.co/qY57C2X/Ellipse-725.png" />
                             <div className="absolute -bottom-2 left-14 py-1 flex gap-1  justify-center items-center bg-black text-white rounded-full px-3 ">
@@ -90,7 +90,7 @@ const Meet = () => {
                 {/* card 4 data heree       */}
 
                 <div>
-                    <div className=" my-10 flex max-w-[350px] flex-col items-center justify-center space-y-5 rounded-t-[40px] rounded-b-[40px] bg-[#FFF7E2]  font-sans shadow-lg dark:bg-[#18181B]">
+                    <div className=" my-10  -ml-48  flex w-[320px] flex-col items-center justify-center space-y-5 rounded-t-[40px] rounded-b-[40px] bg-[#FFF7E2]  font-sans shadow-lg dark:bg-[#18181B]">
                         <div className="group relative pt-10">
                             <img className="h-[180px] w-[180px] rounded-full bg-slate-500 object-cover" src="https://i.ibb.co/qY57C2X/Ellipse-725.png" />
                             <div className="absolute -bottom-2 left-14 py-1 flex gap-1  justify-center items-center bg-black text-white rounded-full px-3 ">
@@ -124,7 +124,7 @@ const Meet = () => {
                 </div>
 
                 {/* card 2 icon here right   */}
-                <div className="border-2 border-[#A5A5A5] rounded-full w-12 flex justify-center items-center h-12">
+                <div className="border-2  -ml-36  border-[#A5A5A5] rounded-full w-12 flex justify-center items-center h-12">
                     <LuMoveRight className="text-[#A5A5A5] text-2xl" />
                 </div>
 

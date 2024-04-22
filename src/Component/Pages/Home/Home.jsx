@@ -14,7 +14,7 @@ const Home = () => {
         <div>
             <div className="bg-[#FFF7E2] w-full h-[70px]">
          </div>
-         <div>
+         <div className="">
             <Banner/>
             <Magic/>
             <Consultations/>
@@ -22,8 +22,8 @@ const Home = () => {
             <Ayurvedic/>
             <Review/>
             <Meet/>
-            <App/>
-            <Footer/>
+            {/* <App/>
+            <Footer/> */}
          </div>
         </div>
     );
